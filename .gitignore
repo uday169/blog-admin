@@ -1,0 +1,51 @@
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Vite
+.vite/
+
+# Cache files
+.cache/
+tmp/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env*
+!.env.example
+
+# Dependency files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Others
+*.log
+*.bak
+
+# ESLint and Prettier
+.eslintcache
+.prettiercache
+
+# Testing
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm/
