@@ -14,21 +14,20 @@ const _nav = [
       text: "NEW"
     }
   },
+  // {
+  //   component: CNavTitle,
+  //   name: "User management"
+  // },
+
   {
     component: CNavTitle,
-    name: "User management"
+    name: "Blogs"
   },
   {
     component: CNavItem,
-    name: "Colors",
-    to: "/theme/colors",
+    name: "Posts",
+    to: "/posts",
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />
-  },
-  {
-    component: CNavItem,
-    name: "Typography",
-    to: "/theme/typography",
-    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />
   },
   {
     component: CNavTitle,
@@ -36,14 +35,20 @@ const _nav = [
   },
   {
     component: CNavItem,
-    name: "Author",
-    to: "/theme/colors",
+    name: "Authors",
+    to: "/authors",
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />
   },
   {
     component: CNavItem,
     name: "Types",
-    to: "/theme/typography",
+    to: "/types",
+    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />
+  },
+  {
+    component: CNavItem,
+    name: "Tags",
+    to: "/tags",
     icon: <CIcon icon={cilPencil} customClassName="nav-icon" />
   }
 ];
